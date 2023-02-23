@@ -1,0 +1,79 @@
+.borderS{
+    border: 2px solid #fb00ff;
+}
+
+.borderSc{
+    border-top:2px solid #0400ff;
+    border-right:2px solid #ff00c8;
+    border-bottom:2px solid #ff0000;
+    border-left:2px solid #00ff55;
+}
+
+.borderSd{
+    border-radius: 30px;
+}
+
+.background{
+    background-image: url("../Images/backgroundPic.png");
+}
+
+.fontSfam{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
+}
+
+.fontSitalic{
+    font-style: italic;
+}
+
+.fontSbold{
+    font-weight: bold;
+}
+
+.fontS{
+    font: 15px "Times New Roman", Times, serif;
+}
+
+.widthS{
+    width: 50%;
+}
+
+.heightS{
+    height: 50px;
+}
+
+.marginS{
+    margin: 30px;
+    border: 2px solid #00ff55;
+    text-align: center;
+}
+
+.paddingS{
+    padding: 30px;
+    border:#ff0000 2px solid;
+    text-align: center;
+}
+
+.overflowS{
+    overflow: visible;
+    border: #000000 2px solid;
+}
+
+.positionS{
+    position: relative;
+    top: 50%;
+    left: 50%;
+}
+.displayS{
+    display: flex;
+    justify-content: center;
+}
+
+.listS{
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+.filterS{
+    filter: blur(1px);
+}
