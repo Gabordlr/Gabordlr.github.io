@@ -177,14 +177,14 @@ function mostFrequent(arr) {
 // 14. Escribe una función que tome un número y devuelva verdadero si es una potencia de dos, falso de lo contrario.
 function isPowerOfTwo(int) {
   int = int / 2;
-  console.log(int);
   if (int % 2 == 0) {
-    isPowerOfTwo(int);
-  } else if (int == 1) {
+    res = isPowerOfTwo(int);
+  } else if (int === 1) {
     return true;
   } else {
     return false;
   }
+  return res;
 }
 
 // 15. Escribe una función que tome una lista de números y devuelva una nueva lista con todos los números en orden descendente.
